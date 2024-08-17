@@ -34,10 +34,10 @@ export const ColeccionFull:Array<IPlataforma> = Coleccion5ta.concat([
     { nombre: 'Wii', clave:'WII'},
     { nombre: 'Nintendo Switch', clave:'SWITCH'}]);
 
-export type TProcesador = 'H700' | 'RK3326' | 'RK3566' | 'T820' | 'T618' | 'T610' | 'T310' | 'MTK D 1100' | 'Snapdragon 8 Gen2' | 'ARM9' | 'A311D';
+export type TProcesador = 'H700' | 'RK3326' | 'RK3566' | 'RK3326S' | 'RK3562' | 'T820' | 'T618' | 'T610' | 'T310' | 'MediaTek Dimensity 1100' | 'Snapdragon 8 Gen2' | 'ARM9' | 'A311D';
 export type TPlataformaMax = 'GameBoy Advance' | 'PlayStation 1' | 'PS1 / NDS' | 'N64 / DC' | 'PSP/N64/DC' | 'GC';
 
-export type TResoluciones = '640x480' | '1280x720' | '1080x1920' | '720x720' | '960x544' | '480x320' | '320x240' | '854x480';
+export type TResoluciones = '640x480' | '1280x720' | '1920x1080' | '720x720' | '960x544' | '480x320' | '320x240' | '854x480' | '750x1334';
 
 
 

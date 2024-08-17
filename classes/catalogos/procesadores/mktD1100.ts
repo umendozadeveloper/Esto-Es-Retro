@@ -94,6 +94,11 @@ export const MTKD1100 =
                 "rendimiento":4.5,
             },
             {
+
+                "nombre":"PS Vita",
+                "rendimiento":4,
+            },
+            {
                 "nombre":"Switch",
                 "rendimiento":3.5,
             }

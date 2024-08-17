@@ -91,7 +91,16 @@ export const T618 =
             },
             {
                 "nombre":"N3DS",
-                "rendimiento":3.5,
+                "rendimiento":3,
             },
+            {
+                
+                "nombre":"PS Vita",
+                "rendimiento":3,
+            },
+            {
+                "nombre":"Nintendo Switch",
+                "rendimiento":.5
+            }
          ]
     }

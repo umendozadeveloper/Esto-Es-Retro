@@ -1,8 +1,11 @@
 import { ARM9 } from "./catalogos/procesadores/arm9";
 import { H700 } from "./catalogos/procesadores/h700";
+import { MTKD1100 } from "./catalogos/procesadores/mktD1100";
 import { RK3326 } from "./catalogos/procesadores/rk3326";
 import { RK3566_Android } from "./catalogos/procesadores/rk3566_android";
 import { RK3566_Linux } from "./catalogos/procesadores/rk3566_linux";
+import { SND8Gen2 } from "./catalogos/procesadores/snapdragon8gen2";
+import { T310 } from "./catalogos/procesadores/t310";
 import { T618 } from "./catalogos/procesadores/t618";
 import { T820 } from "./catalogos/procesadores/t820";
 import { Coleccion5ta, Coleccion8y16Bits, ColeccionFull } from "./collections";
@@ -35,7 +38,10 @@ export const consolas: Array<Consola> = [
         cfwCompatibles: ["Batocera", "Knulli", "muOS"],
         enlaceDeCompra1: "https://s.click.aliexpress.com/e/_Dl7BIjz",
         enlaceDeCompra2: "https://s.click.aliexpress.com/e/_DmIxVgF",
-        img: "35xxsp"
+        img: "35xxsp",
+        gatillosAnalogicos: false,
+        joysticksHall: false,
+        jack: true
     },
     {
         nombre: "RG35XX H",
@@ -62,7 +68,10 @@ export const consolas: Array<Consola> = [
         cfwCompatibles: ["Batocera", "Knulli", "muOS"],
         enlaceDeCompra1: "https://s.click.aliexpress.com/e/_DeS4BXv",
         enlaceDeCompra2: "https://s.click.aliexpress.com/e/_DCEqcyP",
-         img: "35xxh"
+        img: "35xxh",
+        gatillosAnalogicos: false,
+        joysticksHall: false,
+        jack: true
     },
     {
         nombre: "RG35XX Plus",
@@ -89,7 +98,10 @@ export const consolas: Array<Consola> = [
         cfwCompatibles: ["Batocera", "Knulli", "muOS"],
         enlaceDeCompra1: "https://s.click.aliexpress.com/e/_Ddt4Wjd",
         enlaceDeCompra2: "https://s.click.aliexpress.com/e/_DEWRVWr",
-         img: "35xxplus"
+        img: "35xxplus",
+        gatillosAnalogicos: false,
+        joysticksHall: false,
+        jack: true
     },
     {
         nombre: "RG40XX H",
@@ -116,7 +128,10 @@ export const consolas: Array<Consola> = [
         cfwCompatibles: ["Batocera", "Knulli", "muOS"],
         enlaceDeCompra1: "https://s.click.aliexpress.com/e/_DloVd95",
         enlaceDeCompra2: "https://s.click.aliexpress.com/e/_Dlql5iR",
-        img: "35xxh"
+        img: "35xxh",
+        gatillosAnalogicos: false,
+        joysticksHall: false,
+        jack: true
     },
 
     // ANBERNIC RK3566
@@ -145,7 +160,10 @@ export const consolas: Array<Consola> = [
         cfwCompatibles: ["ArkOS", "RockNix"],
         enlaceDeCompra1: "https://s.click.aliexpress.com/e/_DBDyo5t",
         enlaceDeCompra2: "https://s.click.aliexpress.com/e/_Dk9B53v",
-        img: "353vs"
+        img: "353vs",
+        gatillosAnalogicos: false,
+        joysticksHall: false,
+        jack: true
     },
     {
         nombre: "RG353 PS",
@@ -172,9 +190,12 @@ export const consolas: Array<Consola> = [
         cfwCompatibles: ["ArkOS", "RockNix"],
         enlaceDeCompra1: "https://s.click.aliexpress.com/e/_DepmkPl",
         enlaceDeCompra2: "https://s.click.aliexpress.com/e/_DeIHBPD",
-        img: "353ps"
+        img: "353ps",
+        gatillosAnalogicos: false,
+        joysticksHall: false,
+        jack: true
     },
-    
+
     {
         nombre: "RG ARC-S",
         fabricante: "Anbernic",
@@ -200,7 +221,10 @@ export const consolas: Array<Consola> = [
         cfwCompatibles: ["ArkOS", "RockNix"],
         enlaceDeCompra1: "https://s.click.aliexpress.com/e/_DmVbAJz",
         enlaceDeCompra2: "https://s.click.aliexpress.com/e/_DdXQ863",
-        img: "arcs"        
+        img: "arcs",
+        gatillosAnalogicos: false,
+        joysticksHall: false,
+        jack: true
     },
 
     {
@@ -228,10 +252,13 @@ export const consolas: Array<Consola> = [
         cfwCompatibles: ["ArkOS", "RockNix"],
         enlaceDeCompra1: "https://s.click.aliexpress.com/e/_DnLqfOR",
         enlaceDeCompra2: "https://s.click.aliexpress.com/e/_DBSiTjD",
-        img: "arcs"
+        img: "arcs",
+        gatillosAnalogicos: false,
+        joysticksHall: false,
+        jack: true
     },
 
-   
+
     {
         nombre: "RG353 V",
         fabricante: "Anbernic",
@@ -257,6 +284,9 @@ export const consolas: Array<Consola> = [
         cfwCompatibles: ["ArkOS", "RockNix"],
         enlaceDeCompra1: "https://s.click.aliexpress.com/e/_DBDyo5t",
         enlaceDeCompra2: "https://s.click.aliexpress.com/e/_Dk9B53v",
+        gatillosAnalogicos: false,
+        joysticksHall: false,
+        jack: true,
         img: "353vs"
     },
 
@@ -285,6 +315,9 @@ export const consolas: Array<Consola> = [
         cfwCompatibles: ["ArkOS", "RockNix"],
         enlaceDeCompra1: "https://s.click.aliexpress.com/e/_Dk5aLOn",
         enlaceDeCompra2: "https://s.click.aliexpress.com/e/_DCf4olZ",
+        gatillosAnalogicos: false,
+        joysticksHall: false,
+        jack: true,
         img: "353p"
     },
 
@@ -313,7 +346,10 @@ export const consolas: Array<Consola> = [
         cfwCompatibles: ["Gamma OS"],
         enlaceDeCompra1: "https://s.click.aliexpress.com/e/_DCa2fJh",
         enlaceDeCompra2: "https://s.click.aliexpress.com/e/_DFXOGqF",
-        img: "505"
+        img: "505",
+        gatillosAnalogicos: false,
+        joysticksHall: false,
+        jack: true
     },
     {
         nombre: "RG405V",
@@ -340,7 +376,10 @@ export const consolas: Array<Consola> = [
         cfwCompatibles: ["Gamma OS"],
         enlaceDeCompra1: "https://s.click.aliexpress.com/e/_DD7986r",
         enlaceDeCompra2: "https://s.click.aliexpress.com/e/_DeYeiNz",
-        img: "405v"
+        img: "405v",
+        gatillosAnalogicos: false,
+        joysticksHall: false,
+        jack: true
     },
 
     {
@@ -349,7 +388,7 @@ export const consolas: Array<Consola> = [
         formato: "Horizontal",
         pantallaPulgadas: 5.48,
         pantallaRelacionAspecto: "16:9",
-        pantallaResolucion: "1080x1920",
+        pantallaResolucion: "1920x1080",
         bateria: 5500,
         procesador: "T820",
         ram: 8,
@@ -368,7 +407,10 @@ export const consolas: Array<Consola> = [
         cfwCompatibles: [],
         enlaceDeCompra1: "https://s.click.aliexpress.com/e/_DcwCa5N",
         enlaceDeCompra2: "https://s.click.aliexpress.com/e/_DFY5m2f",
-        img: "556"
+        img: "556",
+        gatillosAnalogicos: false,
+        joysticksHall: false,
+        jack: true
     },
 
     {
@@ -396,7 +438,10 @@ export const consolas: Array<Consola> = [
         cfwCompatibles: [],
         enlaceDeCompra1: "https://s.click.aliexpress.com/e/_DBr0omX",
         enlaceDeCompra2: "https://s.click.aliexpress.com/e/_DCLuHEF",
-        img: "cube"
+        img: "cube",
+        gatillosAnalogicos: false,
+        joysticksHall: false,
+        jack: true
     },
 
     /**********************
@@ -430,7 +475,10 @@ export const consolas: Array<Consola> = [
         cfwCompatibles: ["ArkOS", "AmberElec"],
         enlaceDeCompra1: "https://s.click.aliexpress.com/e/_DkHPu3v",
         enlaceDeCompra2: "",
-        img: "rgb20s"
+        img: "rgb20s",
+        gatillosAnalogicos: false,
+        joysticksHall: false,
+        jack: true
     },
 
     {
@@ -458,7 +506,10 @@ export const consolas: Array<Consola> = [
         cfwCompatibles: ["ArkOS", "AmberElec"],
         enlaceDeCompra1: "https://s.click.aliexpress.com/e/_DDeDRzh",
         enlaceDeCompra2: "",
-        img: "v10"
+        img: "v10",
+        gatillosAnalogicos: false,
+        joysticksHall: false,
+        jack: true
     },
 
     {
@@ -486,7 +537,10 @@ export const consolas: Array<Consola> = [
         cfwCompatibles: [],
         enlaceDeCompra1: "https://s.click.aliexpress.com/e/_DcRvvaT",
         enlaceDeCompra2: "",
-        img: "v90"
+        img: "v90",
+        gatillosAnalogicos: false,
+        joysticksHall: false,
+        jack: true
     },
 
     {
@@ -514,7 +568,10 @@ export const consolas: Array<Consola> = [
         cfwCompatibles: ["ArkOS", "AmberElec"],
         enlaceDeCompra1: "https://s.click.aliexpress.com/e/_DDqCort",
         enlaceDeCompra2: "",
-        img: "rgb10max3"
+        img: "rgb10max3",
+        gatillosAnalogicos: false,
+        joysticksHall: false,
+        jack: true
     },
 
     {
@@ -542,7 +599,10 @@ export const consolas: Array<Consola> = [
         cfwCompatibles: ["ArkOS", "AmberElec"],
         enlaceDeCompra1: "https://s.click.aliexpress.com/e/_Dk3aL67",
         enlaceDeCompra2: "",
-        img: "x55"
+        img: "x55",
+        gatillosAnalogicos: false,
+        joysticksHall: false,
+        jack: true
     },
 
     {
@@ -570,7 +630,10 @@ export const consolas: Array<Consola> = [
         cfwCompatibles: ["ArkOS", "AmberElec"],
         enlaceDeCompra1: "https://s.click.aliexpress.com/e/_DEUQrHD",
         enlaceDeCompra2: "",
-        img: "rk2023"
+        img: "rk2023",
+        gatillosAnalogicos: false,
+        joysticksHall: false,
+        jack: true
     },
 
     {
@@ -598,10 +661,13 @@ export const consolas: Array<Consola> = [
         cfwCompatibles: ["ArkOS", "AmberElec"],
         enlaceDeCompra1: "https://s.click.aliexpress.com/e/_DdWC2xv",
         enlaceDeCompra2: "",
-        img: "rgb30"
+        img: "rgb30",
+        gatillosAnalogicos: false,
+        joysticksHall: false,
+        jack: true
     },
 
-    
+
     {
         nombre: "RGB20SX",
         fabricante: "Powkiddy",
@@ -627,7 +693,10 @@ export const consolas: Array<Consola> = [
         cfwCompatibles: ["ArkOS", "AmberElec"],
         enlaceDeCompra1: "https://s.click.aliexpress.com/e/_DFbymkx",
         enlaceDeCompra2: "",
-        img: "rgb20sx"
+        img: "rgb20sx",
+        gatillosAnalogicos: false,
+        joysticksHall: false,
+        jack: true
     },
 
     {
@@ -635,7 +704,7 @@ export const consolas: Array<Consola> = [
         fabricante: "Powkiddy",
         formato: "Horizontal",
         pantallaPulgadas: 5,
-        pantallaRelacionAspecto: "1:1",
+        pantallaRelacionAspecto: "16:9",
         pantallaResolucion: "854x480",
         bateria: 4000,
         procesador: "A311D",
@@ -655,7 +724,10 @@ export const consolas: Array<Consola> = [
         cfwCompatibles: ["RockNix"],
         enlaceDeCompra1: "https://s.click.aliexpress.com/e/_Dm0GWfp",
         enlaceDeCompra2: "",
-        img: "rgb10max3pro"
+        img: "rgb10max3pro",
+        gatillosAnalogicos: false,
+        joysticksHall: false,
+        jack: true
     },
 
     {
@@ -683,8 +755,293 @@ export const consolas: Array<Consola> = [
         cfwCompatibles: [],
         enlaceDeCompra1: "https://s.click.aliexpress.com/e/_DdpKqsb",
         enlaceDeCompra2: "",
-        img: "x28"
+        img: "x28",
+        gatillosAnalogicos: false,
+        joysticksHall: false,
+        jack: true
     },
+    {
+        nombre: "Pocket 3 Lite",
+        fabricante: "Retroid",
+        formato: "Horizontal",
+        pantallaPulgadas: 4.7,
+        pantallaRelacionAspecto: "16:9",
+        pantallaResolucion: "750x1334",
+        bateria: 4000,
+        procesador: "T310",
+        ram: 2,
+        ram2: 3,
+        hdmi: true,
+        bt: true,
+        wifi: true,
+        dobleSlot: true,
+        almInterno: 32,
+        almExterno: 512,
+        plataformaPerfectaMax: "PSP/N64/DC",
+        plataformasEmulables: ColeccionFull,
+        plataformasEmulablesSemaforo: T310,
+        joysticks: 2,
+        tactil: true,
+        sistemaOperativoStock: "Android 11",
+        cfwCompatibles: [],
+        enlaceDeCompra1: " https://s.click.aliexpress.com/e/_DFWkxs3",
+        enlaceDeCompra2: "",
+        img: "pocket3lite",
+        gatillosAnalogicos: false,
+        joysticksHall: false,
+        jack: true
+    },
+
+    {
+        nombre: "Pocket 3 Plus",
+        fabricante: "Retroid",
+        formato: "Horizontal",
+        pantallaPulgadas: 4.7,
+        pantallaRelacionAspecto: "16:9",
+        pantallaResolucion: "750x1334",
+        bateria: 4500,
+        procesador: "T618",
+        ram: 4,
+        hdmi: true,
+        bt: true,
+        wifi: true,
+        dobleSlot: true,
+        almInterno: 128,
+        almExterno: 512,
+        plataformaPerfectaMax: "PSP/N64/DC",
+        plataformasEmulables: ColeccionFull,
+        plataformasEmulablesSemaforo: T618,
+        joysticks: 2,
+        tactil: true,
+        sistemaOperativoStock: "Android 11",
+        cfwCompatibles: [],
+        enlaceDeCompra1: " https://s.click.aliexpress.com/e/_DCJrqTZ",
+        enlaceDeCompra2: "",
+        img: "pocket3plus",
+        gatillosAnalogicos: false,
+        joysticksHall: false,
+        jack: true
+    },
+    {
+        nombre: "Pocket 4 Pro",
+        fabricante: "Retroid",
+        formato: "Horizontal",
+        pantallaPulgadas: 4.7,
+        pantallaRelacionAspecto: "16:9",
+        pantallaResolucion: "750x1334",
+        bateria: 5000,
+        procesador: "MediaTek Dimensity 1100",
+        ram: 8,
+        hdmi: true,
+        bt: true,
+        wifi: true,
+        dobleSlot: true,
+        almInterno: 128,
+        almExterno: 1000,
+        plataformaPerfectaMax: "PSP/N64/DC",
+        plataformasEmulables: ColeccionFull,
+        plataformasEmulablesSemaforo: MTKD1100,
+        joysticks: 2,
+        tactil: true,
+        sistemaOperativoStock: "Android 13",
+        cfwCompatibles: [],
+        enlaceDeCompra1: "https://s.click.aliexpress.com/e/_DDELD27",
+        enlaceDeCompra2: "https://s.click.aliexpress.com/e/_DDi21e7",
+        img: "pocket4pro",
+        gatillosAnalogicos: true,
+        joysticksHall: true,
+        jack:true
+    },
+
+
+    // OTRAS
+    {
+        nombre: "K36",
+        fabricante: "KinHank",
+        formato: "Vertical",
+        pantallaPulgadas: 3.5,
+        pantallaRelacionAspecto: "4:3",
+        pantallaResolucion: "640x480",
+        bateria: 3500,
+        procesador: "RK3326",
+        ram: 1,
+        hdmi: false,
+        bt: false,
+        wifi: false,
+        dobleSlot: false,
+        almInterno: 0,
+        almExterno: 256,
+        plataformaPerfectaMax: "PS1 / NDS",
+        plataformasEmulables: Coleccion5ta,
+        plataformasEmulablesSemaforo: RK3326,
+        joysticks: 2,
+        tactil: false,
+        sistemaOperativoStock: "Emuelec 4.7",
+        cfwCompatibles: ["ArkOS"],
+        enlaceDeCompra1: "https://s.click.aliexpress.com/e/_mr8Jkb2",
+        enlaceDeCompra2: "https://s.click.aliexpress.com/e/_msYXGTS",
+        img: "k36",
+        gatillosAnalogicos: false,
+        joysticksHall: true,
+        jack:true
+    },
+    {
+        nombre: "Odin 2 Pro",
+        fabricante: "AYN",
+        formato: "Horizontal",
+        pantallaPulgadas: 3.5,
+        pantallaRelacionAspecto: "16:9",
+        pantallaResolucion: "1920x1080",
+        bateria: 8000,
+        procesador: "Snapdragon 8 Gen2",
+        ram: 12,
+        hdmi: true,
+        bt: true,
+        wifi: true,
+        dobleSlot: false,
+        almInterno: 256,
+        almExterno: 1000,
+        plataformaPerfectaMax: "PSP/N64/DC",
+        plataformasEmulables: ColeccionFull,
+        plataformasEmulablesSemaforo: SND8Gen2,
+        joysticks: 2,
+        tactil: true,
+        sistemaOperativoStock: "Android 13",
+        cfwCompatibles: [],
+        enlaceDeCompra1: "https://s.click.aliexpress.com/e/_Dls1mX5",
+        enlaceDeCompra2: "",
+        img: "odin2pro",
+        gatillosAnalogicos: true,
+        joysticksHall: true,
+        jack:true
+    },
+
+    {
+        nombre: "R36S",
+        fabricante: "Otros",
+        formato: "Vertical",
+        pantallaPulgadas: 3.5,
+        pantallaRelacionAspecto: "4:3",
+        pantallaResolucion: "640x480",
+        bateria: 3500,
+        procesador: "RK3326",
+        ram: 1,
+        hdmi: false,
+        bt: false,
+        wifi: false,
+        dobleSlot: true,
+        almInterno: 0,
+        almExterno: 256,
+        plataformaPerfectaMax: "PS1 / NDS",
+        plataformasEmulables: Coleccion5ta,
+        plataformasEmulablesSemaforo: RK3326,
+        joysticks: 2,
+        tactil: false,
+        sistemaOperativoStock: "ArkOS",
+        cfwCompatibles: ["AmberElec", "RockNix"],
+        enlaceDeCompra1: "https://s.click.aliexpress.com/e/_DlFTELH",
+        enlaceDeCompra2: "https://s.click.aliexpress.com/e/_Dlh9YWb",
+        img: "r36s",
+        gatillosAnalogicos: false,
+        joysticksHall: false,
+        jack:true
+    },
+
+    {
+        nombre: "XU10",
+        fabricante: "MagicX",
+        formato: "Vertical",
+        pantallaPulgadas: 3.5,
+        pantallaRelacionAspecto: "4:3",
+        pantallaResolucion: "640x480",
+        bateria: 3000,
+        procesador: "RK3326S",
+        ram: 1,
+        hdmi: false,
+        bt: false,
+        wifi: false,
+        dobleSlot: true,
+        almInterno: 0,
+        almExterno: 256,
+        plataformaPerfectaMax: "PS1 / NDS",
+        plataformasEmulables: Coleccion5ta,
+        plataformasEmulablesSemaforo: RK3326,
+        joysticks: 2,
+        tactil: false,
+        sistemaOperativoStock: "Linux (MagicX)",
+        cfwCompatibles: ["AmberElec", "RockNix"],
+        enlaceDeCompra1: "https://s.click.aliexpress.com/e/_DFvMY31",
+        enlaceDeCompra2: "https://s.click.aliexpress.com/e/_DdoTNP9",
+        img: "xu10",
+        gatillosAnalogicos: false,
+        joysticksHall: false,
+        jack:true
+    },
+    {
+        nombre: "XU Mini M",
+        fabricante: "MagicX",
+        formato: "Horizontal",
+        pantallaPulgadas: 2.8,
+        pantallaRelacionAspecto: "4:3",
+        pantallaResolucion: "640x480",
+        bateria: 3000,
+        procesador: "RK3562",
+        ram: 1,
+        hdmi: false,
+        bt: false,
+        wifi: false,
+        dobleSlot: false,
+        almInterno: 0,
+        almExterno: 512,
+        plataformaPerfectaMax: "PS1 / NDS",
+        plataformasEmulables: Coleccion5ta,
+        plataformasEmulablesSemaforo: RK3326,
+        joysticks: 2,
+        tactil: false,
+        sistemaOperativoStock: "Linux (MagicX)",
+        cfwCompatibles: [],
+        enlaceDeCompra1: "https://s.click.aliexpress.com/e/_Dm1wQdz",
+        enlaceDeCompra2: "https://s.click.aliexpress.com/e/_DmfWT0P",
+        img: "xuminim",
+        gatillosAnalogicos: false,
+        joysticksHall: false,
+        jack:true
+    },
+    {
+        nombre: "E6 Plus",
+        fabricante: "GameMT",
+        formato: "Horizontal",
+        pantallaPulgadas: 5,
+        pantallaRelacionAspecto: "16:9",
+        pantallaResolucion: "1280x720",
+        bateria: 5000,
+        procesador: "RK3566",
+        ram: 2,
+        hdmi: true,
+        bt: true,
+        wifi: true,
+        dobleSlot: true,
+        almInterno: 32,
+        almExterno: 512,
+        plataformaPerfectaMax: "PSP/N64/DC",
+        plataformasEmulables: ColeccionFull,
+        plataformasEmulablesSemaforo: RK3566_Android,
+        joysticks: 2,
+        tactil: true,
+        sistemaOperativoStock: "Linux (GameMT) / Android",
+        cfwCompatibles: ["AmberElec"],
+        enlaceDeCompra1: "https://s.click.aliexpress.com/e/_DmjSObp",
+        enlaceDeCompra2: "",
+        img: "e6plus",
+        gatillosAnalogicos: false,
+        joysticksHall: false,
+        jack:true
+    },
+
+
+   
+
+
 ];
 
 function writeIt(){
@@ -695,5 +1052,4 @@ function writeIt(){
     });
 }
 
-
-writeIt();
+writeIt()

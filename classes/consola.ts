@@ -27,4 +27,9 @@ export class Consola {
     enlaceDeCompra2!:string;
     img!:string;
     renderIMG?:string;
+    //NUEVO
+    ram2?:number;
+    gatillosAnalogicos!:boolean;
+    joysticksHall!:boolean;
+    jack!:boolean;
 }

@@ -93,5 +93,13 @@ export const T310 =
                 "nombre":"N3DS",
                 "rendimiento":0.5,
             },
+            {
+                "nombre":"PS Vita",
+                "rendimiento":0.5,
+            },
+            {
+                "nombre":"Nintendo Switch",
+                "rendimiento":0
+            }
          ]
     }

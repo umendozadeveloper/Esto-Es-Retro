@@ -93,5 +93,14 @@ export const T820 =
                 "nombre":"N3DS",
                 "rendimiento":4,
             },
+            {
+                
+                "nombre":"PS Vita",
+                "rendimiento":4,
+            },
+            {
+                "nombre":"Nintendo Switch",
+                "rendimiento":2.5
+            }
          ]
     }

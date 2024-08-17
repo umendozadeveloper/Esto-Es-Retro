@@ -94,6 +94,11 @@ export const SND8Gen2 =
                 "rendimiento":5,
             },
             {
+                
+                "nombre":"PS Vita",
+                "rendimiento":4.5,
+            },
+            {
                 "nombre":"Switch",
                 "rendimiento":4.5,
             }
