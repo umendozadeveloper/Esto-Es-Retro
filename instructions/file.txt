@@ -1,0 +1,12 @@
+npx ts-node .\classes\catalogo.ts
+
+npsx ts-node .\
+
+
+xcopy "..\estoesretro\src\app\classes\" ".\classes\" /E /I
+
+
+npx ts-node .\classes\catalogo.ts
+
+npx ts-node .\classes\emuladores\catalogoEmuladores.ts
+
