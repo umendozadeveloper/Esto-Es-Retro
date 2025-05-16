@@ -1,1 +1,5 @@
 I am cool 3!
+
+xcopy "..\estoesretro\src\app\classes\" ".\classes\" /E /I
+
+npx ts-node .\classes\catalogo.ts 
